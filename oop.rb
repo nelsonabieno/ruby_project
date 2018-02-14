@@ -33,7 +33,7 @@ end
 buyer= Buyer.new('Beloveth1' ,'belov1@gmail.com')   # inheritance
 buyer.run
 
-admin= Admin.new('Beloveth2','belov2@gmail.com')
+admin= Admin.new('Beloveth2','belov2@gmail.com')    # Abstraction, class Admin is only available when it is been called
 admin.run
 
 seller= Seller.new('Beloveth3','belov3@gmail.com')
